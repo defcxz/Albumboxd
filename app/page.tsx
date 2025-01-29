@@ -46,7 +46,7 @@ export default function Home() {
         <div className="container mx-auto px-4 py-8 space-y-8">
             <div className="text-center space-y-4">
                 <h1 className="text-4xl font-bold tracking-tight">Album Search</h1>
-                <p className="text-lg text-muted-foreground">Using Spotify's API</p>
+                <p className="text-lg text-muted-foreground">Using Spotify API</p>
             </div>
 
             <form onSubmit={handleSubmit} className="max-w-xl mx-auto flex gap-2">
