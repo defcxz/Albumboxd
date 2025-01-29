@@ -71,7 +71,7 @@ export default function Home() {
             )}
 
             {results?.albums?.items && results.albums.items.length === 0 && (
-                <div className="text-center mt-8 text-muted-foreground">No albums found for "{query}"</div>
+                <div className="text-center mt-8 text-muted-foreground">No albums found for &quot;{query}&quot;</div>
             )}
         </div>
     )
